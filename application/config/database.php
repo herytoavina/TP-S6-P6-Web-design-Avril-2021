@@ -75,10 +75,10 @@ $query_builder = TRUE;
 
 $db['default'] = array(
 	'dsn'	=> '',
-	'hostname' => 'localhost',
-	'username' => 'root',
-	'password' => 'root',
-	'database' => 'covid',
+	'hostname' => 'mysql-herytoavina.alwaysdata.net',
+	'username' => '234787',
+	'password' => 'toavina2001',
+	'database' => 'herytoavina_covid',
 	'dbdriver' => 'mysqli',
 	'dbprefix' => '',
 	'pconnect' => FALSE,

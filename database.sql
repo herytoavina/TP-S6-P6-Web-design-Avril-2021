@@ -1,7 +1,5 @@
-create database covid;
 
-use covid;
-
+use herytoavina_covid;
 
 create table type(
 	IDType int auto_increment,
@@ -27,7 +25,3 @@ insert into type (nom) values ('Deces');
 insert into type (nom) values ('En traitement');
 insert into type (nom) values ('Formes graves');
 insert into type (nom) values ('Test');
-
-select nom, nombre, dateInfo from type,info where type.IDType=info.IDtype;
-
-select nom, nombre, dateInfo from type,info where type.IDType=info.IDtype and Date(info.dateInfo)='2021-04-29';

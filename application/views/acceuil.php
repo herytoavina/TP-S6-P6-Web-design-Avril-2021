@@ -30,7 +30,7 @@
 
 	<div class="container-contact100">
 		<div class="wrap-contact100">
-			<form class="contact100-form validate-form" action="addInfo" method="POST">
+			<form class="contact100-form validate-form" action="acceuil/addInfo" method="POST">
 				<span class="contact100-form-title">
 					Ajouter des informations
 				</span>
